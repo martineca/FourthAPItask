@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="NorthwindEntities-Web.config Connection String" description="NorthwindEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/NorthwindModel.csdl|res://*/NorthwindModel.ssdl|res://*/NorthwindModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-OBFLS5J\SQLEXPRESS;initial catalog=Northwind;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\distoun\\VSprojects\\NorhtwindAPI\\NorhtwindAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NorthwindEntities']/@connectionString" />
+  </parameter>
+  <parameter name="NorthwindEntities1-Web.config Connection String" description="NorthwindEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/NorthwndModel.csdl|res://*/NorthwndModel.ssdl|res://*/NorthwndModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-OBFLS5J\SQLEXPRESS;initial catalog=Northwind;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\distoun\\VSprojects\\NorhtwindAPI\\NorhtwindAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NorthwindEntities1']/@connectionString" />
+  </parameter>
+</parameters>
